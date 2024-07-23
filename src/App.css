@@ -17,6 +17,7 @@
   border: none;
   outline: none;
   box-shadow: none;
+  z-index: 100;
 }
 .age{
   position: absolute;
@@ -79,7 +80,6 @@
   position: absolute;
   top: 250px;
   left: 780px;
-  height: 50%;
 }
 
 @keyframes glideIn {
