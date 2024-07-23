@@ -4,3 +4,95 @@
   padding: 2rem;
   text-align: center;
 }
+
+#age{
+  position: absolute;
+  top:360px;
+  left:940px;
+  transform: rotate(10deg);
+  font-size: xx-large;
+  color: rgba(255, 255, 255, 0);
+  width: 150px;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.age{
+  position: absolute;
+  top:350px;
+  left:940px;
+  transform: rotate(10deg);
+  width: 150px;
+}
+
+.inputBox{
+  position: absolute;
+  top:340px;
+  left:930px;
+}
+
+.board{
+  position: absolute;
+  top:8em;
+  left:600px;
+}
+
+.question{
+  position: absolute;
+  top:150px;
+  left:750px;
+}
+
+.prompt{
+  position: absolute;
+  top:280px;
+  left:950px;
+}
+
+.littleDog{
+  position: absolute;
+  top:240px;
+  left:650px;
+}
+
+.bigDog{
+  position: absolute;
+  top:420px;
+  left:700px;
+}
+
+.endText{
+  position: absolute;
+  top:460px;
+  left:870px;
+}
+
+.dogAge{
+  position: absolute;
+  top:530px;
+  left:910px;
+  font-size: xx-large;
+}
+
+.inputAge{
+  position: absolute;
+  top: 250px;
+  left: 780px;
+  height: 50%;
+}
+
+@keyframes glideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.glide-in {
+  animation: glideIn 2s ease-out;
+}
