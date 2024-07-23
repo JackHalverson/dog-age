@@ -83,7 +83,7 @@
   transform: rotate(10deg);
 }
 .inputAge img{
-  width: 10px;
+  height: 18px;
 }
 
 @keyframes glideIn {
