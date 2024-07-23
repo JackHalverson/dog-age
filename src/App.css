@@ -80,6 +80,10 @@
   position: absolute;
   top: 250px;
   left: 780px;
+  transform: rotate(10deg);
+}
+.inputAge img{
+  width: 10px;
 }
 
 @keyframes glideIn {

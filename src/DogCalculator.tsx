@@ -68,7 +68,7 @@ const Calculator: React.FC = () => {
         <div>
           <p className="age">{renderNumberImages(age)}</p>
           <p className="dogAge">{renderNumberImages(dogAge.toFixed(0))}</p>
-          <p className="inputAge">{age}</p>
+          <p className="inputAge">{renderNumberImages(age)}</p>
         </div>
       )}
     </>
